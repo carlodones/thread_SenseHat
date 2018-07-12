@@ -46,13 +46,30 @@ thread1.join()
 thread2.join()
 thread3.join()
 
-# str() conversione valori int in string per poterli concatenare 
-messaggio = "random per il primo thread: " + str(tempo1) + " random per il secondo thread: " + str(tempo2) + " random per il terzo thread: " + str(tempo3)
+#Stampa variabili int random
+print ("il valore random per il primo thread e': '" + str(a) + "' sec")
+print ("il valore random per il primo thread e': '" + str(b) + "' sec")
+print ("il valore random per il primo thread e': '" + str(c) + "' sec")
 
-# background
-bg = green
+# Fine dello script
 
-# Display the scrolling message
-sense.show_message(messaggio, scroll_speed=0.150, back_colour=bg)
+print("Fine")
+
+while True:
+
+      # str() conversione valori int in string per poterli concatenare 
+      messaggio = "random per il primo thread: " + str(tempo1) + " random per il secondo thread: " + str(tempo2) + " random per il terzo thread: " + str(tempo3)
+
+      # background
+      bg = green
+
+      # colore testo
+
+      tx = black
+
+      # Display the scrolling message
+      sense.show_message(messaggio, text_colour=tx, scroll_speed=0.150, back_colour=bg)
+
+
 
 

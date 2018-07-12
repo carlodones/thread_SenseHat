@@ -10,7 +10,7 @@ https://packages.debian.org/jessie/python/
 
 https://packages.debian.org/jessie/
 
-#Docker link 
+#Docker link
 
 https://docs.docker.com/get-started/#recap-and-cheat-sheet
 
