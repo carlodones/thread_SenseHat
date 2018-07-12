@@ -8,6 +8,8 @@ sense = SenseHat()
 red = (255, 0, 0)
 green = (0, 255, 0)
 black = (0,0,0)
+orange = (255, 255, 0)
+white = (255,255,255)
 
 # Definizione del lock per sincronizzazione e avvio sequenziale
 threadLock = threading.Lock()
@@ -61,14 +63,13 @@ while True:
       messaggio = "random per il primo thread: " + str(tempo1) + " random per il secondo thread: " + str(tempo2) + " random per il terzo thread: " + str(tempo3)
 
       # background
-      bg = green
+      bg = red
 
       # colore testo
-
-      tx = black
+      tx = white
 
       # Display the scrolling message
-      sense.show_message(messaggio, text_colour=tx, scroll_speed=0.150, back_colour=bg)
+      sense.show_message(messaggio, text_colour=tx, scroll_speed=0.250, back_colour=bg)
 
 
 
