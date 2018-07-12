@@ -47,9 +47,9 @@ thread2.join()
 thread3.join()
 
 #Stampa variabili int random
-print ("il valore random per il primo thread e': '" + str(a) + "' sec")
-print ("il valore random per il primo thread e': '" + str(b) + "' sec")
-print ("il valore random per il primo thread e': '" + str(c) + "' sec")
+print ("il valore random per il primo thread e': '" + str(tempo1) + "' sec")
+print ("il valore random per il primo thread e': '" + str(tempo2) + "' sec")
+print ("il valore random per il primo thread e': '" + str(tempo3) + "' sec")
 
 # Fine dello script
 
